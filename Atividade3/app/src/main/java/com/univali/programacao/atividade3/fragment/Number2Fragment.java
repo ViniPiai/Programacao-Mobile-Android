@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.univali.programacao.atividade3.R;
+import com.univali.programacao.atividade3.activity.Atividade2Log;
 
 public class Number2Fragment extends Fragment {
 
@@ -25,7 +26,7 @@ public class Number2Fragment extends Fragment {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent();
+                Intent intent = new Intent(getContext(), Atividade2Log.class);
                 startActivity(intent);
             }
         });

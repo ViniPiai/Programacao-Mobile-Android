@@ -2,6 +2,7 @@ package com.univali.programacao.atividade3.fragment;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,7 +28,8 @@ public class Number3Fragment extends Fragment {
         FrameLayout f = view.findViewById(R.id.frameId3);
         Calendar rightNow = Calendar.getInstance();
         int hour = rightNow.get(Calendar.HOUR_OF_DAY);
-        if(hour>=18 && hour<=6){
+        Log.d("Hora", String.valueOf(hour));
+        if(hour>=18 || hour<=6){
             Toast.makeText(getContext(), "Boa noite", Toast.LENGTH_LONG).show();
             f.setBackgroundColor(getResources().getColor(R.color.darkBlue));
         }else{
@@ -35,10 +37,8 @@ public class Number3Fragment extends Fragment {
                 Toast.makeText(getContext(), "Bom dia", Toast.LENGTH_LONG).show();
                 f.setBackgroundColor(getResources().getColor(R.color.yellow));
             }else{
-                if(hour>=12){
-                    Toast.makeText(getContext(), "Boa tarde", Toast.LENGTH_LONG).show();
-                    f.setBackgroundColor(getResources().getColor(R.color.green));
-                }
+                Toast.makeText(getContext(), "Boa tarde", Toast.LENGTH_LONG).show();
+                f.setBackgroundColor(getResources().getColor(R.color.green));
             }
         }
 

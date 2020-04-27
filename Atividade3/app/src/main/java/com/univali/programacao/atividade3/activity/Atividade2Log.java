@@ -17,42 +17,42 @@ public class Atividade2Log extends AppCompatActivity {
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
         super.onCreate(savedInstanceState, persistentState);
         setContentView(R.layout.atividade_2);
-        Log.d("Create", "Create");
+        Log.d("Create screen", "Create");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d("Resume", "Resume");
+        Log.d("Resume screen", "Resume");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d("Start", "Start");
+        Log.d("Start screen", "Start");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d("Stop", "Stop");
+        Log.d("Stop screen", "Stop");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d("Pause", "Pausou");
+        Log.d("Pause screen", "Pausou");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.d("Restart", "Restart");
+        Log.d("Restart screen", "Restart");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d("Destroy", "Destroy");
+        Log.d("Destroy screen", "Destroy");
     }
 }

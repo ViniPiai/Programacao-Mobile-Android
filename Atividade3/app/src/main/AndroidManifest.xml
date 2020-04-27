@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.FactorialResultActivity"></activity>
+        <activity android:name=".activity.FactorialResultActivity"/>
+        <activity android:name=".activity.Atividade2Log"/>
         <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
