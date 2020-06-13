@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "954579511425",
+    "firebase_url": "https://pocflutterteste.firebaseio.com",
+    "project_id": "pocflutterteste",
+    "storage_bucket": "pocflutterteste.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954579511425:android:0f33bc23f4de67703b8580",
+        "android_client_info": {
+          "package_name": "br.com.univali.vinicius.flutterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954579511425-994ti4itdafaodn1bnpll6oi6ql5ddug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.univali.vinicius.flutterapp",
+            "certificate_hash": "645de60a0c52795befcfd2eb662c2df72528eb5c"
+          }
+        },
+        {
+          "client_id": "954579511425-k60vfh4rl0kn134hhhd607urnoalpk0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTnk2-d-qnVl7OD4ryxlHUiht3Itdu7vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954579511425-k60vfh4rl0kn134hhhd607urnoalpk0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

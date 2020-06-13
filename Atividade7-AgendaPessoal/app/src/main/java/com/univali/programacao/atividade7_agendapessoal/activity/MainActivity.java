@@ -146,8 +146,6 @@ public class MainActivity extends AppCompatActivity {
                 return stringCompare(personalAgenda.getDate(), t1.getDate());
             }
         });
-        /*personalAgendaList.add(new PersonalAgenda(56, "Comprar pão",
-                "Atividade de ir comprar pão na padaria albanás", "04/05/2020"));*/
         adapterPersonalAgenda = new AdapterPersonalAgenda(personalAgendaList, getApplicationContext());
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(layoutManager);

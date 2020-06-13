@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "777919807870",
+    "firebase_url": "https://pocflutterunivali.firebaseio.com",
+    "project_id": "pocflutterunivali",
+    "storage_bucket": "pocflutterunivali.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777919807870:android:5dbd5f5ee5d2a2cb41732f",
+        "android_client_info": {
+          "package_name": "br.com.univali.vinicius.pocflutterunivali"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777919807870-70ctp3u7p6k8bl5ssp3nco1pjgjg17jv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.univali.vinicius.pocflutterunivali",
+            "certificate_hash": "645de60a0c52795befcfd2eb662c2df72528eb5c"
+          }
+        },
+        {
+          "client_id": "777919807870-uitrqa0u1v792bo5qo32c4or9qtjhgb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8O0HSi0PmVvDeCEKHVrQ1-_Z91RLvCac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777919807870-uitrqa0u1v792bo5qo32c4or9qtjhgb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
