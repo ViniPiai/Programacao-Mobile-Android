@@ -87,9 +87,6 @@ class _ContentViewState extends State<ContentView> {
   }
 
   Widget body() {
-    double height = MediaQuery.of(context).size.height;
-    double width = MediaQuery.of(context).size.width;
-
     return Column(
       children: <Widget>[
         _loadingFile ? uploadingFile() : Container(),
