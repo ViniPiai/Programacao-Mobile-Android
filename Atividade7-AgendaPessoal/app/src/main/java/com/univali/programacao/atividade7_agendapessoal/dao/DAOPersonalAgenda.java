@@ -36,6 +36,7 @@ public class DAOPersonalAgenda {
     public static List<PersonalAgenda> getAll(Context context){
         dbHelper = new DbHelper(context);
         List<PersonalAgenda> personalAgendaList = new ArrayList<>();
+
         Cursor cursor = dbHelper.getWritableDatabase()
                 .rawQuery("SELECT * FROM "+table, null);
         while (cursor.moveToNext()){

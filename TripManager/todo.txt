@@ -1,0 +1,7 @@
+- Falta adicionar imagens (url já está sendo passado)
+- A mainactivity mostra todos os lugares, fazer serem botões para vizualização da imagem e descricão (similar so minha lista)
+- ListTrip, tem o Adapter de Location, porém a lista aparece os objetos, fazer mostrar como string
+- Ao adicionar a minha lista, retirar da lista total de lugares
+- Retirar itens da minha lista.
+- Melhorar o design
+- Mais alguma funcionalidade

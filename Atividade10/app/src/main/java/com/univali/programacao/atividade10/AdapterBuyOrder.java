@@ -17,7 +17,7 @@ public class AdapterBuyOrder extends RecyclerView.Adapter<AdapterBuyOrder.MyView
 
     private List<Cardapio> buy;
 
-    public AdapterBuyOrder(List<Cardapio> buy) {
+    AdapterBuyOrder(List<Cardapio> buy) {
         this.buy = buy;
     }
 
